@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: #a2d6f1;
+}
+
+#tamaño-margin {
+    background: #b871a8;
+    text-transform: uppercase;
+    margin: 5rem;
+    padding: 2rem;
+    color: #4d2844;
+    text-align: center;
+}
+
+#tamaño-padding {
+    background: #92e088;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin: 5rem;
+    color: #3a5037;
+    text-align: center;
+}
+
+#tamaño-border {
+    background: #6a5cbe;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #363152;
+    margin: 5rem;
+    border: 2px solid #363152;
+    text-align: center;
+}
+

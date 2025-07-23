@@ -1,0 +1,83 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#main img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1;       
+}
+
+header img {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #ff0062;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+table {
+  border: 4px solid #fff;
+  border-collapse: collapse;
+  color: #ffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+.titulo-tabla {
+  border-right: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #838383; 
+    padding: 20px; 
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+   background: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 60, 255));
+    color: #ffff;
+    text-transform: uppercase;
+    transition: background .1s ease;
+}
+footer a:hover {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #0059ff;
+    color: #ffff;
+    text-transform: uppercase;
+}

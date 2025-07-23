@@ -1,0 +1,41 @@
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.contacto {
+    display: inline-block;
+    background: #9ddefc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    gap: 1rem;
+}
+
+.titulo-principal {
+    text-align: center;
+    background: #23b9ff;
+    border-radius: 1rem;  
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.titulo {
+  background: #23b9ff;
+   font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 1rem;  
+}
+
+a {
+    text-decoration: none;
+}

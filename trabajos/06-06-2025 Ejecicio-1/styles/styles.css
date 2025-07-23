@@ -1,0 +1,25 @@
+h1 {
+    color: gray;
+    font-family: Arial, sans-serif;
+}
+
+#titulo-principal {
+    color: rgb(0, 110, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    background-color: #85c1e9;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+p {
+    background-color: #e0f7fa; 
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+}

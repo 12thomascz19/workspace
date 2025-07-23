@@ -1,0 +1,135 @@
+body {
+    background: #80abfc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff0062;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+  background: #80abfc;
+  border-collapse: collapse;
+  color: #ffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  padding: 50px 30px;
+  background: #80abfc;
+}
+
+.titulo-tabla {
+  border-right: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+#Verde {
+    background-color: #006800;
+    color: #00ff00;
+    text-transform: uppercase;
+}
+
+#Morado {
+    background-color: #690099;
+    color: #d57cff;
+    text-transform: uppercase;
+}
+
+#Gris {
+    background-color: #5e5e5e;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#lila {
+    background-color: #C8A2C8;
+    color: #5f0085;
+    text-transform: uppercase;
+}
+
+#amarillo {
+    background-color: #c8ff00;
+    color: #3f471f;
+    text-transform: uppercase;
+}
+
+#Rosado {
+    background-color: #ff00aaad;
+    color: #ffa8e2ad;
+    text-transform: uppercase;
+}
+
+#Rojo {
+    background-color: #ff0000;
+    color: #fa8383;
+    text-transform: uppercase;
+}
+
+#lima {
+    background-color: #32CD32;
+    color: #beffbe;
+    text-transform: uppercase;
+}
+
+#Magenta {
+    background-color: #CF3476;
+    color: #ff99c5;
+    text-transform: uppercase;
+}
+
+#Naranjado {
+    background-color: #ff6600;
+    color: #beffbe;
+    text-transform: uppercase;
+}
+
+#Celeste {
+    background-color: #00e1ff;
+    color: #beffbe;
+    text-transform: uppercase;
+}
+
+#Cafe {
+    background-color: #422515;
+    color: #beffbe;
+    text-transform: uppercase;
+}
+
+#Negro {
+    background-color: #000000;
+    color: #beffbe;
+    text-transform: uppercase;
+}
+
+#Beige {
+    background-color: #E8DCCA;
+    color: #fab650;
+    text-transform: uppercase;
+}
+
+#Blanco {
+    background-color: #fff;
+    color: #6a6d6d;
+    text-transform: uppercase;
+}
+
+#Turquesa {
+    background-color: #5DC1B9;
+    color: #3f5353;
+    text-transform: uppercase;
+}
+

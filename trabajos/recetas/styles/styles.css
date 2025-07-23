@@ -1,0 +1,106 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #FAF3E0;
+      color: #333;
+    }
+
+    header {
+      background-color: #FF7043;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1.2em;
+    }
+
+    nav {
+      background-color: #8D5524;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #FFC107;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .recipe-title {
+      font-size: 2.2em;
+      color: #8D5524;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .recipe-img {
+      width: 100%;
+      border-radius: 14px;
+      margin: 25px 0;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h3 {
+      color: #FF7043;
+      margin-bottom: 12px;
+      font-size: 1.5em;
+      border-bottom: 2px solid #FFC107;
+      padding-bottom: 5px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    footer {
+      background-color: #8D5524;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+    }

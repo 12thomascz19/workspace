@@ -1,0 +1,41 @@
+/* Estilo general del contenedor principal */
+main {
+  display: flex;
+  flex-wrap: wrap; /* permite que los elementos pasen a la siguiente línea si no caben */
+  gap: 20px; /* espacio entre los contenedores */
+  justify-content: center; /* centra los contenedores horizontalmente */
+  padding: 20px;
+}
+
+/* Estilo para cada contenedor */
+.container {
+  width: 200px; /* puedes ajustar este tamaño según tu diseño */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilo para las imágenes */
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Estilo para el botón */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

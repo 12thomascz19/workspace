@@ -1,0 +1,70 @@
+body {
+    margin: 1rem;
+    font-family: sans-serif;
+    background: rgb(255, 225, 225);
+    text-align: center;
+}
+
+table td {
+    border-radius: 10px;
+}
+
+.tarea1 {
+    border: 3px dashed rgb(0, 102, 255);
+    background: #8dc8ff;
+    color: rgb(0, 102, 255);
+    text-transform: uppercase;
+}
+.tarea2 {
+    border: 3px dashed rgb(255, 0, 200);
+    color: rgb(255, 0, 200);
+    background: rgb(255, 157, 234);
+    text-transform: uppercase;
+
+}
+
+.container {
+    display: flex;
+    gap: 5rem;
+}
+
+#hora1 {
+    border: 2px dashed rgb(0, 102, 255);
+    background: transparent;
+    padding: 5px;
+    color: rgb(0, 102, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#hora2 {
+    border: 2px dashed rgb(255, 0, 200);
+    background: transparent;
+    padding: 5px;
+    color: rgb(255, 0, 200);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.container-hora {
+    background: rgb(124, 218, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-tabla-ul {
+    display: flex;
+}
+
+ul {
+    display: flex;
+  flex-direction: row; /* fila */
+  flex-wrap: wrap;     /* permite salto de línea si no caben */
+  gap: 20px;           /* espacio entre bloques */
+  padding: 20px;
+  text-decoration: none;
+}
