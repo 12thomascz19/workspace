@@ -1,0 +1,21 @@
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    cursor: pointer; 
+}
+
+#nombre, #numeros {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
